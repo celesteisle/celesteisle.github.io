@@ -12,5 +12,4 @@ The site is primarily used for quick reference during games.
 
 Created By Hugh Carstensen - 2019
 
-Attribution-NonCommercial
 CC BY-NC
