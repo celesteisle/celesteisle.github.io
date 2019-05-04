@@ -10,6 +10,9 @@ Other resources as needed on a case-by-case basis.
 
 The site is primarily used for quick reference during games.
 
-Created By Hugh Carstensen - 2019
 
-CC BY-NC
+Created using Skeleton by Dave Gamache under MIT license 
+www.getskeleton.com
+
+
+Created by Hugh Carstensen - 2019 - CC BY-NC
