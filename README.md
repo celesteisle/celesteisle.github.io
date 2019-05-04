@@ -1,4 +1,4 @@
-# celeste.github.io
+# celesteisle.github.io
 
 This repository is an index of game knowledge for the Celeste isle dnd campaign.
 It contains player versus character knowledge distinctions;
