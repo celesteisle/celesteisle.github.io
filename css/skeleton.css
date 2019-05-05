@@ -154,19 +154,6 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 p {
   margin-top: 0; }
 
-
-/* Links
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-a {
-  color: #000000; 
-  text-decoration: none;
-  }
-a:hover {
-  color: #0F0F0F; 
-  text-decoration: none;
-  }
-
-
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button,

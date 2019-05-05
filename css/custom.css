@@ -1,3 +1,14 @@
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+    color: #222034;
+    text-decoration: none; }
+a:hover {
+    color: #3f3f74;
+    text-decoration: none;  }
+  
+/* Menu centering
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .menuitem{
     text-align: center;
 }
