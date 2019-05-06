@@ -37,10 +37,16 @@
         <!-- Header Image
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <div class="row">
-                <img class="center" src="images/icons/celestetitle.png" style='max-width: 768px'>
-                <!--<img class="u-max-full-width" src="images/celestetitle.png">-->
+            <picture>
+                <!-- Desktop Header -->
+                <source class="center" media="(min-width: 961px)" srcset="images/icons/celestetitle.png"/>
+                <!-- Mobile Header -->
+                <source class="center" media="(max-width: 960px)" srcset="images/icons/celeste.png"/>
+                <!-- Legacy Browser Header -->
+                <img class="center" src="images/icons/celeste.png" style='max-width: 768px' />
+            </picture>
         </div>
-        
+
         <!-- Ribbon
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <div class="row">
