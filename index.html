@@ -1,43 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
     <!--
     ------------------HOME INDEX PAGE---------------------
     -->
     <!-- Basic Page Needs
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <title>Celeste: Home</title>
-    <meta name="Page" content="Celeste Homepage">
-    <meta name="Author" content="Hugh Carstensen">
+    <meta name='Page' content='Celeste Homepage'>
+    <meta name='Author' content='Hugh Carstensen'>
 
     <!-- Mobile Specific Metas
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
 
     <!-- FONT
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
 
     <!-- CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/skeleton.css">
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel='stylesheet' href='css/normalize.css'>
+    <link rel='stylesheet' href='css/skeleton.css'>
+    <link rel='stylesheet' href='css/custom.css'>
 
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="shortcut icon" href="https://celesteisle.github.io/images/icons/icon.ico"/>
+    <link rel='shortcut icon' href='https://celesteisle.github.io/images/icons/icon.ico'/>
 </head>
 
 <body>
 <!-- Primary Page Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="container">
+    <div class='container'>
         <!-- Header Script
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <div id="header"></div>
-        <script type="text/javascript" language="javascript" src="templates/header.js"></script>
+        <div id='header'></div>
+        <script type='text/javascript' language='javascript' src='templates/header.js'></script>
+        
+        <!-- Footer Script
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <div id='footer'></div>
+        <!-- Page Content
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <div class = 'row'>
+            <div class = 'four columns section div grey'>
+                <h5 class = 'section title'>MOTD</h5>
+                <p id='motd'></p>
+                <Script type='text/javascript' language='javascrpt'>
+                    var motd = document.getElementById("motd");
+                    
+                    function readTextFile(file)
+                    {
+                        var rawFile = new XMLHttpRequest();
+                        rawFile.open("GET", file, false);
+                        rawFile.onreadystatechange = function ()
+                        {
+                            if(rawFile.readyState === 4)
+                            {
+                                if(rawFile.status === 200 || rawFile.status == 0)
+                                {
+                                    var message = rawFile.responseText;
+                                    motd.innerText = message
+                                }
+                            }
+                        }
+                        rawFile.send(null);
+                    }
+
+                    readTextFile("https://celesteisle.github.io/motdf.txt");
+                </script>
+            </div>
+        </div>
+
     </div>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
