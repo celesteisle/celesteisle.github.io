@@ -28,29 +28,50 @@
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link id='icon' rel='shortcut icon'/>
-    <script type='text/javascript' language='javascript' src='../templates/relative_path.js'></script>
+    <script type='text/javascript' language='javascript' src='../templates/util/relative_path.js'></script>
     <script type='text/javascript' language='javascript' src='../templates/icon.js'></script>
     
+    <!-- Header Script
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script type="text/javascript" language="javascript" src="../templates/header.js"></script>
+    
+    <!-- Dynamic Content Loader
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script type='text/javascript' language='javascript' src='../templates/dynamic_content_test.js'></script>
+    
+    <script type="text/javascript">
+        window.onload = function(){
+            var domain = "celesteisle.github.io";
+            createHeader(domain);
+            dynamicContentTest(domain);
+        }
+    </script>
 </head>
 
 <body>
 <!-- Primary Page Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="container">
-        <!-- Header Script
+        <!-- Header
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <div id="header"></div>
-        <script type="text/javascript" language="javascript" src="../templates/header.js"></script>
-        <!-- Page content
+        <!-- Content
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <div class ="row">
-            <div class="six columns section div green">
-                <h5 class="section title">World Maps</h5>
+        <div id ='list' class ='row'>
+            <div class='four columns section div red'>
+                <h5 class='section title'>Combat Maps</h5>
+                <ul>
+                    <li><a class="file" href='../images/icons/celeste.png'>Chasm</a></li>
+                </ul>
             </div>
-            <div class="six columns section div blue">
-                <h5 class="section title">City Maps</h5>
+            <div class='four columns section div green'>
+                <h5 class='section title'>World Maps</h5>
+            </div>
+            <div class='four columns section div blue'>
+                <h5 class='section title'>City Maps</h5>
             </div>
         </div>
+        <div class='row' id='content'></div>
     </div>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
