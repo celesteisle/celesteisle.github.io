@@ -2,12 +2,11 @@
 var header = document.getElementById("header");
 var documentLocation = document.location.toString();
 var domain = "celesteisle.github.io";
-//header.innerHTML=documentLocation;
-//header.innerHTML+=" a";
+
 
 //Getting the relative prefix for the filepaths of each other page
 var relativePrefix = relativePathPrefix(documentLocation, domain);
-//header.innerHTML+= " " + relativePrefix;
+
 
 //Creating imgRow div
 var imgRow = document.createElement("div");
