@@ -1,36 +1,27 @@
 //Dynamic Page Content Generator
-function dynamicContent() {
+function dynamicContent(domain){
     //Get a list of all link elements on the page
-    var links = document.getElementsByTagName("a");
+    var links = document.getElementsByClassName("file");
     //Iterate through each link in the list
-    links.forEach( function(link){
-        //If the link has an id which is a file name (e.g. file../../images/maps/combat/chasm.png)
-        if(link.id.indexOf("file") > -1){ 
-            //remove the "file" prefix
-            var fileName = link.id.substring(4);
-            //When the link is clicked, run the following js function
-            link.onclick = function(link, fileName){
-                //Getting the content div in the html page
-                var content = document.getElementById("content");
-                //get file extension
-                var extension = fileName.substring(fileName.indexOf(".") + 1);
-                //var contentName = fileName.substring(0, fileName.indexOf("."));
-                if(extension == "table"){
-                    //Create table content
-                } else if(extension == "journal"){
-                    //Create journal content
-                } else if(extension == "png"){
-                    //Create image content
-                    var img = document.createElement("img");
-                    img.className = "center";
-                    img.src = "<img src='" + fileName +"' />";
-                    content.appendChild(img);
-                } else if(extension == "svg"){
-                    //Create image content
-                }
-                return false;
+    for(var i = 0, size = links.length; i < size ; i++){
+        var link = links[i];
+        //Get the location of the content file
+        var filePath = link.href;
+        //Change the link href to redirect user to the content section of the page
+        link.href = "#content";
+        
+        link.onclick = function(){
+            //Get the file extension of the content file
+            var extension = filePath.substring(filePath.indexOf(".", filePath.indexOf(domain) + domain.length) + 1);
+            //Get content element
+            var content = document.getElementByID("content");
+            var content = document.getElementById("content");
+            //Create content based on file extension
+            if(extension.indexOf("png") > -1){
+                //Create an image element with the center class
+                content.innerHTML = "<img class='center' src='" + filePath + "'/>";
             }
+            //return false;
         }
-    });
-    return false;
+    }
 }

@@ -1,46 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
     <!--
     ------------------PARTY HOME PAGE---------------------
     -->
     <!-- Basic Page Needs
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <title>Celeste: Party</title>
-    <meta name="Page" content="Celeste Partypage">
-    <meta name="Author" content="Hugh Carstensen">
+    <meta name='Page' content='Celeste Partypage'>
+    <meta name='Author' content='Hugh Carstensen'>
 
     <!-- Mobile Specific Metas
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
 
     <!-- FONT
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
 
     <!-- CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/skeleton.css">
-    <link rel="stylesheet" href="../css/custom.css">
+    <link rel='stylesheet' href='../css/normalize.css'>
+    <link rel='stylesheet' href='../css/skeleton.css'>
+    <link rel='stylesheet' href='../css/custom.css'>
 
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link id='icon' rel='shortcut icon'/>
-    <script type='text/javascript' language='javascript' src='../templates/relative_path.js'></script>
+    <script type='text/javascript' language='javascript' src='../templates/util/relative_path.js'></script>
     <script type='text/javascript' language='javascript' src='../templates/icon.js'></script>
     
+    <!-- Header Script
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script type='text/javascript' language='javascript' src='../templates/header.js'></script>
+    
+    <!-- Dynamic Content Loader
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script type='text/javascript' language='javascript' src='../templates/dynamic_content.js'></script>
+    
+    <!-- Calling Populating Scripts
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script type='text/javascript'>
+        window.onload = function(){
+            var domain = 'celesteisle.github.io';
+            createHeader(domain);
+            dynamicContent(domain);
+        }
+    </script>
 </head>
 
 <body>
 <!-- Primary Page Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="container">
+    <div class='container'>
         <!-- Header Script
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <div id="header"></div>
-        <script type="text/javascript" language="javascript" src="../templates/header.js"></script>
+        <div id='header'></div>
     </div>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

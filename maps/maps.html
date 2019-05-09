@@ -1,29 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
     <!--
     ------------------MAPS HOME PAGE---------------------
     -->
     <!-- Basic Page Needs
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <title>Celeste: Maps</title>
-    <meta name="Page" content="Celeste Mappage">
-    <meta name="Author" content="Hugh Carstensen">
+    <meta name='Page' content='Celeste Mappage'>
+    <meta name='Author' content='Hugh Carstensen'>
 
     <!-- Mobile Specific Metas
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
 
     <!-- FONT
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
 
     <!-- CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/skeleton.css">
-    <link rel="stylesheet" href="../css/custom.css">
+    <link rel='stylesheet' href='../css/normalize.css'>
+    <link rel='stylesheet' href='../css/skeleton.css'>
+    <link rel='stylesheet' href='../css/custom.css'>
 
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -33,17 +33,19 @@
     
     <!-- Header Script
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <script type="text/javascript" language="javascript" src="../templates/header.js"></script>
+    <script type='text/javascript' language='javascript' src='../templates/header.js'></script>
     
     <!-- Dynamic Content Loader
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <script type='text/javascript' language='javascript' src='../templates/dynamic_content_test.js'></script>
+    <script type='text/javascript' language='javascript' src='../templates/dynamic_content.js'></script>
     
-    <script type="text/javascript">
+    <!-- Calling Populating Scripts
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script type='text/javascript'>
         window.onload = function(){
-            var domain = "celesteisle.github.io";
+            var domain = 'celesteisle.github.io';
             createHeader(domain);
-            dynamicContentTest(domain);
+            dynamicContent(domain);
         }
     </script>
 </head>
@@ -51,17 +53,17 @@
 <body>
 <!-- Primary Page Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="container">
+    <div class='container'>
         <!-- Header
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <div id="header"></div>
+        <div id='header'></div>
         <!-- Content
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <div id ='list' class ='row'>
             <div class='four columns section div red'>
                 <h5 class='section title'>Combat Maps</h5>
                 <ul>
-                    <li><a class="file" href='../images/icons/celeste.png'>Chasm</a></li>
+                    <li><a class='file' href='../images/icons/celeste.png'>Chasm</a></li>
                 </ul>
             </div>
             <div class='four columns section div green'>
