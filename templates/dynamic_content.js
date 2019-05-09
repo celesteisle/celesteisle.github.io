@@ -19,27 +19,9 @@ function dynamicContent(domain){
             if(extension === "png"){
                 //Create an image element with the center class
                 content.innerHTML = "<img class='center' src='" + filePath + "'/>";
-            } else if(extension === "emb"){
+            } else if(extension === "xml"){
                 content.className+= "row section div grey";
-                content.innerHTML = function(filePath){
-                    //console.log(filePath);
-                    var raw = new XMLHttpRequest();
-                    var content = "";
-                    raw.open("GET", filePath);
-                    raw.onreadystatechange = function ()
-                    {
-                        if(raw.readyState === 4)
-                        {
-                            if(raw.status === 200 || raw.status == 0)
-                            {
-                                content += raw.responseText;
-                                //console.log(content);
-                            }
-                        }
-                    }
-                    raw.send(null);
-                    return content;
-                }
+                content.innerHTML = readFile(filePath);
             }
             //return false;
         }
