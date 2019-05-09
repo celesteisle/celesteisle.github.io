@@ -1,5 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- General Embedding Example
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <!-- Just follow html rules, and for multiple embeds use the divider rules established in multilists.emb -->
+<!--You need a root divider element -->
+<div>
+    <!--any styling should be done on an interior divider element -->
+    <!-- no this is not a violation of seperation of presentation vs. data 
+    b/c the color is used to make different data distinct, and is an inherent part of the data -->
+    <div class="twelve columns section div lightblue">
+        <p> put whatever you wanna embed inside</p>
+    </div>
+</div>
 <!-- make sure to add your file to the registry file in its respective content folder, or the dynamic populator script won't be able to load it -->
 <!-- have fun you summabitch -->
