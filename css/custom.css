@@ -69,6 +69,31 @@ a:hover {
     border-color: #639bff;
 }
 
+.orange {
+    background-color: #df7126;
+    border-color: #df7126;
+}
+
+.pink {
+    background-color: #d77bba;
+    border-color: #d77bba;
+}
+
+.yellow {
+    background-color: #fbf236;
+    border-color: #fbf236;
+}
+
+.salmon {
+    background-color: #d95763;
+    border-color: #d95763;
+}
+
+.lightblue {
+    background-color: #5fcde4;
+    border-color: #5fcde4;
+}
+
 .grey {
     background-color: #9badb7; 
     border-color: #9badb7;

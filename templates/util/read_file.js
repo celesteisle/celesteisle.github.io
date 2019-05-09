@@ -10,9 +10,7 @@ function readFile(filePath){
             if(raw.status === 200 || raw.status == 0)
             {
                 content += raw.responseText;
-                console.log(content);
-                raw.send(null);
-                return content;
+                //console.log(content);
             }
         }
     }
