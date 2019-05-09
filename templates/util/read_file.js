@@ -1,5 +1,5 @@
 function readFile(filePath){
-    console.log(filePath);
+    //console.log(filePath);
     var raw = new XMLHttpRequest();
     var content = "";
     raw.open("GET", filePath);
