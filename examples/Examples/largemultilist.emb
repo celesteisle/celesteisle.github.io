@@ -1,0 +1,59 @@
+<!-- Multi List Example
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- When the content needs to be split into more than 3 lists, it's usually best to split it into multiple rows -->
+<!-- The total number of columns in each row must add up to twelve (e.g. six + two + four = twelve) -->
+<!-- The row class arranges the lists vertically -->
+
+<!-- First row -->
+<div class='row'>
+    <div class="four columns section div pink">
+        <h5 class='section title'>Title</h5>
+        <ul>
+            <li>List item 1</li>
+            <li>List item 2
+                <ul>
+                    <li>Sublist item 1</li>
+                    <li>Sublist item 2</li>
+                    <li>Sublist item 3</li>
+                </ul>
+            </li>
+            <li>List item 3</li>
+        </ul>
+    </div>
+    <div class="eight columns section div lightblue">
+        <h5 class='section title'>Title</h5>
+        <ul>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+        </ul>
+    </div>
+</div>
+
+<!--Second row -->
+<div class='row'>
+    <div class="three columns section div green">
+        <h5 class='section title'>Title</h5>
+        <ul>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+        </ul>
+    </div>
+    <div class="five columns section div orange">
+        <h5 class='section title'>Title</h5>
+        <ul>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+        </ul>
+    </div>
+        <div class="four columns section div pink">
+        <h5 class='section title'>Title</h5>
+        <ul>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+        </ul>
+    </div>
+</div>

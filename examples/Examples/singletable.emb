@@ -1,0 +1,31 @@
+<!-- Single Table Example
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- multitables follow the same divider rules as multi-lists -->
+<h5 class='section title'>Title</h5>
+<table>
+    <!-- Table Headings -->
+    <thead>
+        <tr>
+            <th>Column A</th>
+            <th>Column B</th>
+            <th>Column C</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>A - Row 1</td>
+            <td>B - Row 1</td>
+            <td>C - Row 1</td>
+        </tr>
+        <tr>
+            <td>A - Row 2</td>
+            <td>B - Row 2</td>
+            <td>C - Row 2</td>
+        </tr>
+        <tr>
+            <td>A - Row 3</td>
+            <td>B - Row 3</td>
+            <td>C - Row 3</td>
+        </tr>
+    </tbody>
+</table>

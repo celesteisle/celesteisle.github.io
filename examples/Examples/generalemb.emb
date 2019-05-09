@@ -1,0 +1,5 @@
+<!-- General Embedding Example
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- Just follow html rules, and for multiple embeds use the divider rules established in multilists.emb -->
+<!-- make sure to add your file to the registry file in its respective content folder, or the dynamic populator script won't be able to load it -->
+<!-- have fun you summabitch -->

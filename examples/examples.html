@@ -2,13 +2,13 @@
 <html lang='en'>
 <head>
     <!--
-    ------------------HOME INDEX PAGE---------------------
+    ------------------Examples HOME PAGE---------------------
     -->
     <!-- Basic Page Needs
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset='utf-8'>
-    <title>Celeste: Home</title>
-    <meta name='Page' content='Celeste Homepage'>
+    <title>Celeste: Examples</title>
+    <meta name='Page' content='Celeste Mappage'>
     <meta name='Author' content='Hugh Carstensen'>
 
     <!-- Mobile Specific Metas
@@ -21,26 +21,33 @@
 
     <!-- CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel='stylesheet' href='css/normalize.css'>
-    <link rel='stylesheet' href='css/skeleton.css'>
-    <link rel='stylesheet' href='css/custom.css'>
+    <link rel='stylesheet' href='../css/normalize.css'>
+    <link rel='stylesheet' href='../css/skeleton.css'>
+    <link rel='stylesheet' href='../css/custom.css'>
 
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link id='icon' rel='shortcut icon'/>
-    <script type='text/javascript' language='javascript' src='templates/util/relative_path.js'></script>
-    <script type='text/javascript' language='javascript' src='templates/icon.js'></script>
+    <script type='text/javascript' language='javascript' src='../templates/util/relative_path.js'></script>
+    <script type='text/javascript' language='javascript' src='../templates/icon.js'></script>
     
     <!-- Header Script
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <script type='text/javascript' language='javascript' src='templates/header.js'></script>
-
+    <script type='text/javascript' language='javascript' src='../templates/header.js'></script>
+    
+    <!-- Dynamic Content Loader
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script type='text/javascript' language='javascript' src='../templates/dynamic_content.js'></script>
+    <script type='text/javascript' language='javascript' src='../templates/util/read_file.js'></script>
+    
     <!-- Calling Populating Scripts
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <script type='text/javascript'>
         window.onload = function(){
             var domain = "celesteisle.github.io";
+            var subFolders = [ "Examples"];
             createHeader(domain);
+            dynamicContent(domain);
         }
     </script>
 </head>
@@ -49,13 +56,22 @@
 <!-- Primary Page Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class='container'>
-        <!-- Header Script
+        <!-- Header
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <div id='header'></div>
-        
-        <!-- Footer Script
+        <!-- List
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <div id='footer'></div>
+        <div id ='list' class ='row'>
+            <div class='twelve columns section div red'>
+                <h5 class='section title'>Example</h5>
+                <ul>
+                    <li><a class='file' href='../examples/Examples/singleList.emb'>Single List</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Content
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <div id='content' class='row'></div>
     </div>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

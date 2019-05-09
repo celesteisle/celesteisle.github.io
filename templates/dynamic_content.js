@@ -14,12 +14,14 @@ function dynamicContent(domain){
             //Get the file extension of the content file
             var extension = filePath.substring(filePath.indexOf(".", filePath.indexOf(domain) + domain.length) + 1);
             //Get content element
-            var content = document.getElementByID("content");
             var content = document.getElementById("content");
             //Create content based on file extension
-            if(extension.indexOf("png") > -1){
+            if(extension === "png"){
                 //Create an image element with the center class
                 content.innerHTML = "<img class='center' src='" + filePath + "'/>";
+            } else if(extension === "emb"){
+                content.className+= "row section div grey";
+                content.innerHTML = readFile(filePath, domain);
             }
             //return false;
         }
