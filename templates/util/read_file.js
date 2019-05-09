@@ -11,6 +11,8 @@ function readFile(filePath){
             {
                 content += raw.responseText;
                 console.log(content);
+                raw.send(null);
+                return content;
             }
         }
     }
