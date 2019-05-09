@@ -21,7 +21,8 @@ function dynamicContent(domain){
                 content.innerHTML = "<img class='center' src='" + filePath + "'/>";
             } else if(extension === "emb"){
                 content.className+= "row section div grey";
-                content.innerHTML = "" + readFile(filePath, domain);
+                var embContent = readFile(filePath);
+                content.innerHTML = embContent;
             }
             //return false;
         }
