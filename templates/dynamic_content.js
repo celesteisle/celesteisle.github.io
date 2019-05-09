@@ -13,17 +13,29 @@ function dynamicContent(domain){
         link.onclick = function(){
             //Get the file extension of the content file
             var extension = filePath.substring(filePath.indexOf(".", filePath.indexOf(domain) + domain.length) + 1);
-            //Get content element
-            var content = document.getElementById("content");
             //Create content based on file extension
             if(extension === "png"){
-                //Create an image element with the center class
-                content.innerHTML = "<img class='center' src='" + filePath + "'/>";
+                imageHandler(filePath);
             } else if(extension === "xml"){
-                content.className+= "row section div grey";
-                content.innerHTML = readFile(filePath);
+                //Call readFile reads xml document and then calls xmlhandler once the httprequest is fulfilled
+                readFile(filePath, domain);
             }
             //return false;
         }
     }
+}
+
+function imageHandler(imagePath){
+    //Get content element
+    var content = document.getElementById("content");
+    //Create an image element with the center class
+    content.innerHTML = "<img class='center' src='" + imagePath + "'/>";
+}
+
+function xmlHandler(xmlText){
+    //Get content element
+    var content = document.getElementById("content");
+    console.log(xmlText);
+    //embed xml data into the content div
+    content.innerHTML = xmlText;
 }

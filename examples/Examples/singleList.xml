@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Single List Example
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<!-- make sure the structure has a divider root element -->
-<div>
+<!-- make sure the structure has a divider root element with the appropriate container styling -->
+<div class="twelve columns section div grey">
     <h5 class='section title'>Title</h5>
     <ul>
         <li>List item 1</li>
