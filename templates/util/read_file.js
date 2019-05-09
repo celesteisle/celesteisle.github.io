@@ -1,6 +1,7 @@
 function readFile(filePath){
     //console.log(filePath);
-    String xhttp = new XMLHttpRequest();
+    var xhttp = new XMLHttpRequest();
+    String content = "";
     raw.onreadystatechange = function ()
     {
         if(xhttp.readyState === 4 && (xhttp.status === 200 || xhttp.status == 0))
