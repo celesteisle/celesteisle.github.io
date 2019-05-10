@@ -1,5 +1,5 @@
 function readFile(filePath, domain){
-    console.log(filePath);
+    //console.log(filePath);
     //Making js requests locally will not work on chrome due to security protocal
     //This if statement changes the request to https which is allowed, 
     //but means the data needs to be hosted externally for it to work
