@@ -6,7 +6,7 @@
 <!-- The section div class styles the lists into dividers with rounded corners and appropriate margins -->
 <!-- Available colors are red, green, blue, orange, yellow, pink, salmon, and lightblue -->
 <div>
-    <div class="six columns section div pink">
+    <div class="section div pink">
         <h5 class='section title'>Title</h5>
         <ul>
             <li>List item 1</li>
@@ -20,7 +20,7 @@
             <li>List item 3</li>
         </ul>
     </div>
-    <div class="six columns section div lightblue">
+    <div class="section div lightblue">
         <h5 class='section title'>Title</h5>
         <ul>
             <li>List item 1</li>
