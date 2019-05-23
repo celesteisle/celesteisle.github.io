@@ -9,4 +9,13 @@
     <section color='red'>
         <sectiontitle>Title</sectiontitle>
     </section>
+    <section color='green'>
+        <sectiontitle>Title</sectiontitle>
+    </section>
+    <section color='blue'>
+        <sectiontitle>Title</sectiontitle>
+    </section>
+    <section color='orange'>
+        <sectiontitle>Title</sectiontitle>
+    </section>
 </content>
