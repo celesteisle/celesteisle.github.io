@@ -8,24 +8,5 @@
 <content>
     <section color='red'>
         <sectiontitle>Title</sectiontitle>
-        <ulist>
-            <listitem>List item 1</listitem>
-            <listitem>List item 2
-                <olist>
-                    <listitem>Sublist item 1</listitem>
-                    <listitem>Sublist item 2</listitem>
-                    <listitem>Sublist item 3</listitem>
-                </olist>
-            </listitem>
-            <listitem>List item 3</listitem>
-        </ulist>
-    </section>
-    <section color='green'>
-        <sectiontitle>Title</sectiontitle>
-        <ulist>
-            <listitem>List item 1</listitem>
-            <listitem>List item 2</listitem>
-            <listitem>List item 3</listitem>
-        </ulist>
     </section>
 </content>
