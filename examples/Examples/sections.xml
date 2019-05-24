@@ -6,7 +6,7 @@
 <!-- The section div class styles the lists into dividers with rounded corners and appropriate margins -->
 <!-- Available colors are red, green, blue, orange, yellow, pink, salmon, and lightblue -->
 <content>
-    <section title ='Title' color='red'><content><section title='here to mess things up' color='pink'></section></content></section>
+    <section title ='Title' color='red'></section>
     <section title ='Title' color='green'></section>
     <section title ='Title' color='blue'></section>
     <section title ='Title' color='orange'></section>
