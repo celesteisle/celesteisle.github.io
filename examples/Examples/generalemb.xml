@@ -8,19 +8,6 @@
             <item>
                 <p> put <h4>whatever</h4> <h1>you</h1> wanna <h3>embed</h3> inside</p>
             </item>
-            <item>
-            <code>
-                "<content>
-                    <section title='Title'>
-                        <data type='general'>
-                            <item>
-                                <p> put <h4>whatever</h4> <h1>you</h1> wanna <h3>embed</h3> inside</p>
-                            </item>
-                        </data>
-                    </section>
-                </content>"
-                </code>
-            </item>
         </data>
     </section>
 </content>
