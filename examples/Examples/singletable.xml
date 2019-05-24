@@ -2,35 +2,34 @@
 <!-- Single Table Example
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <!-- multitables follow the same divider rules as multi-lists -->
-<div>
-    <div class="twelve columns section div grey">
-        <h5 class='section title'>Title</h5>
+<content>
+    <section title='Title' color='salmon'>
         <table>
-            <!-- Table Headings -->
-            <thead>
-                <tr>
-                    <th>Column A</th>
-                    <th>Column B</th>
-                    <th>Column C</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>A - Row 1</td>
-                    <td>B - Row 1</td>
-                    <td>C - Row 1</td>
-                </tr>
-                <tr>
-                    <td>A - Row 2</td>
-                    <td>B - Row 2</td>
-                    <td>C - Row 2</td>
-                </tr>
-                <tr>
-                    <td>A - Row 3</td>
-                    <td>B - Row 3</td>
-                    <td>C - Row 3</td>
-                </tr>
-            </tbody>
+        <caption>Example of a single table</caption>
+            <head>
+                <row>
+                    <item>Column A</item>
+                    <item>Column B</item>
+                    <item>Column C</item>
+                </row>
+            </head>
+            <body>
+                <row>
+                    <item>A - Row 1</item>
+                    <item>B - Row 1</item>
+                    <item>C - Row 1</item>
+                </row>
+                <row>
+                    <item>A - Row 2</item>
+                    <item>B - Row 2</item>
+                    <item>C - Row 2</item>
+                </row>
+                <row>
+                    <item>A - Row 3</item>
+                    <item>B - Row 3</item>
+                    <item>C - Row 3</item>
+                </row>
+            </body>
         </table>
-    </div>
-</div>
+    </section>
+</content>
