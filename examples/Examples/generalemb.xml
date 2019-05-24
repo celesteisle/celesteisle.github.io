@@ -10,7 +10,6 @@
             </item>
             <item>
                 <code>
-                <?xml version="1.0" encoding="UTF-8"?>
                 <!-- General Embedding Example
                 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
                 <!-- you can put any valid html inside an element to include it! -->
