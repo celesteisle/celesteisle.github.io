@@ -6,8 +6,7 @@
 <!-- The section div class styles the lists into dividers with rounded corners and appropriate margins -->
 <!-- Available colors are red, green, blue, orange, yellow, pink, salmon, and lightblue -->
 <content>
-    <section color='red'>
-        <sectiontitle>Title</sectiontitle>
+    <section title ='Title' color='red'>
         <data type='ulist'>
             <item>List item 1</item>
             <item>List item 2
@@ -19,8 +18,7 @@
             </item>
             <item>List item 3</item>
         </data>
-    </section>
-    <section title='Title' color='green'>
+    </section title='Title'>
         <data type='ulist'>
             <item>List item 1</item>
             <item>List item 2</item>
