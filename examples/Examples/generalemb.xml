@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- General Embedding Example
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- you can put any valid html inside an element to include it! -->
 <content>
     <section title='Title'>
         <data type='general'>
             <item>
-                <a href='#'> put whatever you wanna embed inside</a>
+                <p> put <h4>whatever</h4> <h1>you</h1> wanna <h3>embed</h3> inside</p>
             </item>
         </data>
     </section>
