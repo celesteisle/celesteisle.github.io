@@ -4,7 +4,7 @@
 <!-- multitables follow the same divider rules as multi-lists -->
 <content>
     <section title='Title' color='salmon'>
-        <table>
+        <data type='table'>
         <caption>Example of a single table</caption>
             <head>
                 <row>
@@ -30,6 +30,6 @@
                     <item>C - Row 3</item>
                 </row>
             </body>
-        </table>
+        </data>
     </section>
 </content>
