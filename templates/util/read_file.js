@@ -13,7 +13,7 @@ function readFile(filePath, domain){
     xhttp.onreadystatechange = function (){
         if(xhttp.readyState === 4 && (xhttp.status === 200 || xhttp.status == 0))
         {
-            xmlHandler(xhttp.responseText);
+            xmlHandler(xhttp.responseXML);
         }
     }
     xhttp.send(null);
