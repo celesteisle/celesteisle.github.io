@@ -5,7 +5,6 @@
 <content>
     <section title='Title' color='salmon'>
         <data type='table'>
-        <caption>Example of a single table</caption>
             <head>
                 <row>
                     <item>Column A</item>

@@ -3,7 +3,11 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <content>
     <section title='Title'>
-        <p> put whatever you wanna embed inside</p>
+        <data type='general'>
+            <item>
+                <a href='#'> put whatever you wanna embed inside</a>
+            </item>
+        </data>
     </section>
 </content>
 <!-- make sure to add your file to the registry file in its respective content folder, or the dynamic populator script won't be able to load it -->
