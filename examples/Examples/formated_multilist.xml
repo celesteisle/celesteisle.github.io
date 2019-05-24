@@ -22,9 +22,9 @@
     </section>
     <section title='Title' color='green'>
         <data type='ulist'>
-            <item>List item 1</listitem>
-            <item>List item 2</listitem>
-            <item>List item 3</listitem>
+            <item>List item 1</item>
+            <item>List item 2</item>
+            <item>List item 3</item>
         </data>
     </section>
 </content>
