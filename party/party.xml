@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Single List Example
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<content>
+    <section title='Character' color='red'>
+        <data type='ulist'>
+            <item>1</item>
+            <item>2</item>
+            <item>3</item>
+            <item>4</item>
+        </data>
+    </section>
+    <section title='Resources' color='green'>
+        <data type='ulist'>
+            <item>1</item>
+            <item>2</item>
+            <item>3</item>
+            <item>4</item>
+        </data>
+    </section>
+    <section title='Journals' color='blue'>
+        <data type='ulist'>
+            <item>1</item>
+            <item>2</item>
+            <item>3</item>
+            <item>4</item>
+        </data>
+    </section>
+</content>

@@ -37,7 +37,12 @@
     
     <!-- Dynamic Content Loader
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script type='text/javascript' language='javascript' src='../templates/util/image_handler.js'></script>
+    <script type='text/javascript' language='javascript' src='../templates/util/xml_handler.js'></script>
+    <script type='text/javascript' language='javascript' src='../templates/util/read_file.js'></script>
+    <script type='text/javascript' language='javascript' src='../templates/dynamic_index.js'></script>
     <script type='text/javascript' language='javascript' src='../templates/dynamic_content.js'></script>
+    
     
     <!-- Calling Populating Scripts
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -45,46 +50,25 @@
         window.onload = function(){
             var domain = "celesteisle.github.io";
             createHeader(domain);
+            dynamicIndex(domain);
             dynamicContent(domain);
         }
     </script>
-    
 </head>
 
 <body>
 <!-- Primary Page Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class='container'>
-        <!-- Header Script
+        <!-- Header
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <div id='header'></div>
-
-        <!-- Page content
+        <!-- Index
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <div class ='row'>
-            <div class ='four columns section div red'>
-                <h5 class='section title'>Combat</h5>
-                <ul>
-                    <li>Weapons</li>
-                    <li>Focus</li>
-                </ul>
-            </div>
-            <div class ='four columns section div green'>
-                <h5 class='section title'>Environment</h5>
-                <ul>
-                    <li>A</li>
-                    <li>B</li>
-                </ul>
-            </div>
-            <div class ='four columns section div blue'>
-                <h5 class='section title'>Creatures</h5>
-                <ul>
-                    <li>A</li>
-                    <li>B</li>
-                </ul>
-            </div>
-        </div>
-        <div class=
+        <div id ='index'></div>
+        <!-- Content
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <div id='content'></div>
     </div>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

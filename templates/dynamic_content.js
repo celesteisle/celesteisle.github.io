@@ -7,7 +7,7 @@ function clickHandler(filePath, domain){
         imageHandler(filePath);
     } else if(extension === "xml"){
         //Call readFile reads xml document and then calls xmlhandler once the httprequest is fulfilled
-        readFile(filePath, domain);
+        readFile(filePath, domain, "content");
     }
     return false;
 }

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Single List Example
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<content>
+    <section title='Player Knowledge' color='red'>
+        <data type='ulist'>
+            <item>1</item>
+            <item>2</item>
+            <item>3</item>
+            <item>4</item>
+        </data>
+        <section title='Character Knowledge' color='blue'>
+            <data>
+                <item>1</item>
+                <item>2</item>
+                <item>3</item>
+                <item>4</item>
+            </data>
+        </section>
+    </section>
+</content>

@@ -1,6 +1,6 @@
-function xmlHandler(xmlDoc){
-    var content = document.getElementById("content");
-    content.innerHTML = contentDes(xmlDoc.documentElement);
+function xmlHandler(xmlDoc, groupName){
+    var group = document.getElementById(groupName);
+    group.innerHTML = contentDes(xmlDoc.documentElement);
 }
 
 function getChildrenByTagName(root, tagName){
@@ -19,27 +19,50 @@ function contentDes(content){
     var divWidths = [ "one", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve"];
     var colors = [ "green", "blue", "red", "lightblue", "salmon", "orange", "pink", "yellow" ];
     var colorCounter = 0;
-    var html = "";
+    var html = "<div class='row'>";
     var sections = getChildrenByTagName(content, "section");
+
     var size = sections.length;
-    
-    for(var i = 0; i < sections.length; i ++){
-        section = sections[i];
-        if(!section.hasAttribute("width")){
-            var width = 3;
-            if(size < 4){
-                width = (12 / size);
+    var numOfDivs = size;
+    var columnsRem = 12;
+    var target = 3;
+    for(var i = 0; i < size;){
+        //console.log("i=" + i + " numOfDivs=" + numOfDivs + " target=" + target + " columnsRem=" + columnsRem);
+        var section = sections[i];
+        if(numOfDivs < 4 && columnsRem === 12){
+            target = 12 / numOfDivs;
+        }
+        var width = target;
+        if(columnsRem < target){
+            columnsRem = 12;
+            html += "</div><div class='row'>";
+        } else if(section.hasAttribute("width") && ( 0 > columnsRem - parseInt(section.getAttribute("width")))) {
+            columnsRem = 12;
+            html += "</div><div class='row'>";
+        } else {
+            if(section.hasAttribute("width")){
+                width = parseInt(section.getAttribute("width"));
+            } else {
+                var moreDivsInRow = columnsRem / target;
+                width = columnsRem / moreDivsInRow;
             }
-            section.setAttribute("width", divWidths[width]);
+            var remainder = columnsRem - width;
+            if(remainder < target){
+                width += remainder;
+            }
+            columnsRem -= width;
+            section.setAttribute("width", divWidths[width]);   
+            if(!section.hasAttribute("color")){
+                var color = colors[colorCounter]
+                colorCounter ++;
+                section.setAttribute("color", color); 
+            }
+            html += sectionDes(section);
+            numOfDivs --;
+            i++;
         }
-        if(!section.hasAttribute("color")){
-            var color = colors[colorCounter]
-            colorCounter ++;
-            section.setAttribute("color", color);
-        }
-        html += sectionDes(section);
     }
-    return html;
+    return html + "</div>";
 }
 
 function sectionDes(section){

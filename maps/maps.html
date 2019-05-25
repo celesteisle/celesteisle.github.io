@@ -37,15 +37,20 @@
     
     <!-- Dynamic Content Loader
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script type='text/javascript' language='javascript' src='../templates/util/image_handler.js'></script>
+    <script type='text/javascript' language='javascript' src='../templates/util/xml_handler.js'></script>
+    <script type='text/javascript' language='javascript' src='../templates/util/read_file.js'></script>
+    <script type='text/javascript' language='javascript' src='../templates/dynamic_index.js'></script>
     <script type='text/javascript' language='javascript' src='../templates/dynamic_content.js'></script>
+    
     
     <!-- Calling Populating Scripts
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <script type='text/javascript'>
         window.onload = function(){
             var domain = "celesteisle.github.io";
-            var subFolders = [ "Combat", "World", "City"];
             createHeader(domain);
+            dynamicIndex(domain);
             dynamicContent(domain);
         }
     </script>
@@ -58,23 +63,12 @@
         <!-- Header
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <div id='header'></div>
+        <!-- Index
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <div id ='index'></div>
         <!-- Content
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <div id ='list' class ='row'>
-            <div class='four columns section div red'>
-                <h5 class='section title'>Combat Maps</h5>
-                <ul>
-                    <li><a class='file' href='../images/icons/celeste.png'>Chasm</a></li>
-                </ul>
-            </div>
-            <div class='four columns section div green'>
-                <h5 class='section title'>World Maps</h5>
-            </div>
-            <div class='four columns section div blue'>
-                <h5 class='section title'>City Maps</h5>
-            </div>
-        </div>
-        <div class='row' id='content'></div>
+        <div id='content'></div>
     </div>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
