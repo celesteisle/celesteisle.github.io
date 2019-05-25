@@ -7,11 +7,11 @@
 <!-- Available colors are red, green, blue, orange, yellow, pink, salmon, and lightblue -->
 <content>
     <section title ='Title' width='5'></section>
+    <section title ='Title' width='3'></section>
     <section title ='Title'></section>
     <section title ='Title'></section>
+    <section title ='Title' width='11'></section>
     <section title ='Title'></section>
-    <section title ='Title' width='1'></section>
-    <section title ='Title'></section>
-    <section title ='Title'></section>
+    <section title ='Title' width='2'></section>
     <section title ='Title'></section>
 </content>
