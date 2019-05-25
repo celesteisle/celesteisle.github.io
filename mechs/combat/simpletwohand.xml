@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Single Table Example
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- multitables follow the same divider rules as multi-lists -->
+<content>
+    <section title='Simple Two-Handed Weapons' width='11'>
+        <data type='table'>
+            <head>
+                <row>
+                    <item>Name</item>
+                    <item>Special</item>
+                    <item>Dmg(S)</item>
+                    <item>Dmg(M)</item>
+                    <item>Crit</item>
+                    <item>Dmg Type</item>
+                    <item>Range inc.</item>
+                    <item>Cost</item>
+                    <item>Weight</item>
+                </row>
+            </head>
+            <body>
+                <row>
+                    <item>Longspear</item>
+                    <item>Reach</item>
+                    <item>1d6</item>
+                    <item>1d8</item>
+                    <item>x3</item>
+                    <item>Piercing</item>
+                    <item>-</item>
+                    <item>5 gp</item>
+                    <item>9 lb.</item>
+                </row>
+                <row>
+                    <item>QuarterStaff</item>
+                    <item>-</item>
+                    <item>1d4</item>
+                    <item>1d6</item>
+                    <item>x2</item>
+                    <item>Bludgeoning</item>
+                    <item>-</item>
+                    <item>1 gp</item>
+                    <item>4 lb.</item>
+                </row>
+                <row>
+                    <item>Spear</item>
+                    <item>-</item>
+                    <item>1d6</item>
+                    <item>1d8</item>
+                    <item>x3</item>
+                    <item>Piercing</item>
+                    <item>20 ft.</item>
+                    <item>2 gp</item>
+                    <item>3 lb.</item>
+                </row>
+            </body>
+        </data>
+    </section>
+</content>

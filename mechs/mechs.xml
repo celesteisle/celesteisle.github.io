@@ -4,9 +4,14 @@
 <content>
     <section title='Combat' color='red'>
         <data type='ulist'>
-            <item>Weapons Tables
+            <item>Weapons
                 <data type='ulist'>
-                    <item><a class='file' href='../mechs/combat/weaponmaster.xml'>Weapon Master</a></item>
+                    <item>Simple
+                        <data type='ulist'>
+                            <item><a class='file' href='../mechs/combat/simpleonehand.xml'>One-Hand</a></item>
+                            <item><a class='file' href='../mechs/combat/simpletwohand.xml'>Two-Hand</a></item>
+                        </data>
+                    </item>
                 </data>
             </item>                
         </data>
