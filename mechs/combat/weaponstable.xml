@@ -31,6 +31,19 @@
                     <item>1 lb.</item>
                 </row>
             </body>
+            <body>
+                <row>
+                    <item>Dagger</item>
+                    <item>Finesse&#13;&#10;Light</item>
+                    <item>1d3</item>
+                    <item>1d4</item>
+                    <item>19+/x2</item>
+                    <item>Slashing&#13;&#10;Piercing</item>
+                    <item>10 ft.</item>
+                    <item>2 gp</item>
+                    <item>1 lb.</item>
+                </row>
+            </body>
         </data>
     </section>
 </content>
