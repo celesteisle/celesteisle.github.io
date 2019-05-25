@@ -2,14 +2,14 @@
 <!-- Single List Example
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <content>
-    <section title='Player Knowledge' color='red'>
+    <section title='Player Knowledge' color='red' width='6'>
         <data type='ulist'>
             <item>1</item>
             <item>2</item>
             <item>3</item>
             <item>4</item>
         </data>
-        <section title='Character Knowledge' color='blue'>
+        <section title='Character Knowledge' color='blue' width='6'>
             <data>
                 <item>1</item>
                 <item>2</item>
