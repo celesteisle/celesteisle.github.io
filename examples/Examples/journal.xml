@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- General Embedding Example
+<!-- Journal Example
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<!-- you can put any valid html inside an element to include it! -->
 <content>
     <section title='Title'>
         <data type='general'>
@@ -16,5 +15,3 @@
         </data>
     </section>
 </content>
-<!-- make sure to add your file to the registry file in its respective content folder, or the dynamic populator script won't be able to load it -->
-<!-- have fun you summabitch -->

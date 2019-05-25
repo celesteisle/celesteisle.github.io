@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Single List Example
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<content>
+    <section title='Examples'>
+        <data type='ulist'>
+            <item>Lists
+                <data type='ulist'>
+                    <item><a class='file' href='../examples/Examples/singlelist.xml'>Single List</a></item>
+                    <item><a class='file' href='../examples/Examples/multilist.xml'>Multi List</a></item>
+                </data>
+            </item>
+            <item><a class='file' href='../examples/Examples/singletable.xml'>Single Table</a></item>
+            <item>Sectioning
+                <data type='ulist'>
+                    <item><a class='file' href='../examples/Examples/threesections.xml'>Basic Sections</a></item>
+                    <item><a class='file' href='../examples/Examples/sections.xml'>Complex Sections</a></item>
+                    <a class='file' href='../examples/Examples/howtobreakthesectionsizealg.xml'>Broken Sections</a>
+                </data>
+            </item>
+            <item>General Data
+                <data type='ulist'>
+                    <item><a class='file' href='../examples/Examples/journal.xml'>Journal Page</a></item>
+                    <item><a class='file' href='../examples/Examples/image.jpg'>Image</a></item>
+                    <item><a class='file' href='../examples/Examples/generalemb.xml'>General Embed</a></item>
+                </data>
+            </item>
+        </data>
+    </section>
+</content>

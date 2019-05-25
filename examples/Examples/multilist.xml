@@ -4,9 +4,10 @@
 <!-- When the content needs to be split up use seperate sections -->
 <!-- All sections are REQUIRED to have a title attribute with a value -->
 <!-- color is an optional attribute if you feel associating a color with the information makes sense-->
-<!-- Available colors are red, green, blue, orange, yellow, pink, salmon, and lightblue -->
-<!-- width is another optional attribute. Try to avoid using it if at all possible -->
-<!-- width accepts values 0-12 -->
+<!-- Available colors are red, green, blue, orange, yellow, pink, salmon, grey, and lightblue -->
+<!-- width is another optional attribute. You have to be careful using it because of the way the section sizing algorithm works -->
+<!-- see howtobreakthesectionsizealg.xml for more detail-->
+<!-- width accepts values 1-12 -->
 <content>
     <section title ='Title' color='orange'>
         <data type='ulist'>
