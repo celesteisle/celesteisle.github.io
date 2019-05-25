@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Multi List Example
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- When the content needs to be split into multiple lists, lists are put into seperate dividers -->
+<!-- The total number of columns used must add up to twelve (e.g. six + two + four = twelve) -->
+<!-- The section div class styles the lists into dividers with rounded corners and appropriate margins -->
+<!-- Available colors are red, green, blue, orange, yellow, pink, salmon, and lightblue -->
+<content>
+    <section title ='Title'></section>
+    <section title ='Title' width='7'></section>
+</content>
