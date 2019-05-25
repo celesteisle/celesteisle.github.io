@@ -2,7 +2,7 @@
 <!-- Single List Example
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <content>
-    <section title='Examples'>
+    <section title='Examples' color='red'>
         <data type='ulist'>
             <item>Lists
                 <data type='ulist'>
