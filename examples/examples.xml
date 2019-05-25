@@ -15,7 +15,7 @@
                 <data type='ulist'>
                     <item><a class='file' href='../examples/Examples/threesections.xml'>Basic Sections</a></item>
                     <item><a class='file' href='../examples/Examples/sections.xml'>Complex Sections</a></item>
-                    <a class='file' href='../examples/Examples/howtobreakthesectionsizealg.xml'>Broken Sections</a>
+                    <item><a class='file' href='../examples/Examples/howtobreakthesectionsizealg.xml'>Broken Sections</a></item>
                 </data>
             </item>
             <item>General Data
