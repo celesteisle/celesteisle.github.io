@@ -4,26 +4,17 @@
 <content>
     <section title='Combat' color='red'>
         <data type='ulist'>
-            <item>1</item>
-            <item>2</item>
-            <item>3</item>
-            <item>4</item>
+            <item><a class='file' href='../examples/Examples/weaponstable.xml'>Weapons</a></item>
         </data>
     </section>
     <section title='Environment' color='green'>
         <data type='ulist'>
             <item>1</item>
-            <item>2</item>
-            <item>3</item>
-            <item>4</item>
         </data>
     </section>
     <section title='Creatures' color='blue'>
         <data type='ulist'>
             <item>1</item>
-            <item>2</item>
-            <item>3</item>
-            <item>4</item>
         </data>
     </section>
 </content>
