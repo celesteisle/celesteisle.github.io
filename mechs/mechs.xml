@@ -4,7 +4,7 @@
 <content>
     <section title='Combat' color='red'>
         <data type='ulist'>
-            <item><a class='file' href='../combat/weaponstable.xml'>Weapons</a></item>
+            <item><a class='file' href='../mechs/combat/weaponstable.xml'>Weapons</a></item>
         </data>
     </section>
     <section title='Environment' color='green'>
