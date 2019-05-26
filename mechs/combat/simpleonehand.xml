@@ -11,8 +11,8 @@
                     <item>Special</item>
                     <item>Cost</item>
                     <item>Weight</item>
-                    <row>
                     </row>
+                    <row>
                     <item>Dmg(S)/Dmg(M)</item>
                     <item>Crit</item>
                     <item>Dmg Type</item>
@@ -25,8 +25,8 @@
                     <item>Finesse&#13;&#10;Light</item>
                     <item>2 gp</item>
                     <item>1 lb.</item>
-                <row>
                 </row>
+                <row>
                     <item>Slashing&#13;&#10;Piercing</item>
                     <item>10 ft.</item>
                     <item>1d3/1d4</item>
