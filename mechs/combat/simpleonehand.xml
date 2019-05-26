@@ -9,28 +9,28 @@
                 <row>
                     <item>Name</item>
                     <item>Special</item>
-                    <item>Dmg(S)</item>
-                    <item>Dmg(M)</item>
+                    <item>Cost</item>
+                    <item>Weight</item>
+                    <row>
+                    </row>
+                    <item>Dmg(S)/Dmg(M)</item>
                     <item>Crit</item>
                     <item>Dmg Type</item>
                     <item>Range inc.</item>
-                    <item>Cost</item>
-                    <item>Weight</item>
                 </row>
             </head>
             <body>
                 <row>
                     <item>Dagger</item>
-                </row>
-                <row>
                     <item>Finesse&#13;&#10;Light</item>
-                    <item>1d3</item>
-                    <item>1d4</item>
-                    <item>19+/x2</item>
-                    <item>Slashing&#13;&#10;Piercing</item>
-                    <item>10 ft.</item>
                     <item>2 gp</item>
                     <item>1 lb.</item>
+                <row>
+                </row>
+                    <item>Slashing&#13;&#10;Piercing</item>
+                    <item>10 ft.</item>
+                    <item>1d3/1d4</item>
+                    <item>19+/x2</item>
                 </row>
                 <row>
                     <item>Spiked&#13;&#10;Gauntlet</item>
