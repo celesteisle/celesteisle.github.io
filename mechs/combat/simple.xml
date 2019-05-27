@@ -7,7 +7,7 @@
         <data type='table'>
             <head>
                 <row>
-                    <item>Name</item>
+                    <item><h7>Name</h7></item>
                     <item>Special</item>
                     <item>Dmg Type</item>
                 </row>
@@ -25,8 +25,8 @@
             <body>
                 <!-- Dagger -->
                 <row>
-                    <item>Dagger</item>
-                    <item>Finesse&#13;&#10;Light</item>
+                    <item><h7>Dagger</h7></item>
+                    <item>Finesse,&#13;&#10;Light</item>
                     <item>Slashing&#13;&#10;Piercing</item>
                     
                 </row>
@@ -43,7 +43,7 @@
                 
                 <!-- Spiked Gauntlet -->
                 <row>
-                    <item>Spiked&#13;&#10;Gauntlet</item>
+                    <item><h7>Spiked&#13;&#10;Gauntlet</h7></item>
                     <item>Light</item>
                     <item>1d3</item>
                     <item>1d4</item>
