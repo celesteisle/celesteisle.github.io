@@ -7,7 +7,7 @@
         <data type='table'>
             <head>
                 <row>
-                    <item><p style='font-size: 80%'>Name</p></item>
+                    <item><style='font-size: 80%'>Name</></item>
                     <item>Special</item>
                     <item>Dmg Type</item>
                 </row>
