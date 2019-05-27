@@ -4,9 +4,9 @@
 <!-- multitables follow the same divider rules as multi-lists -->
 <content>
     <section title='Simple One-Handed Weapons' width='11'>
+        <!-- Entry Prototype -->
         <data type='table'>
             <head>
-            <!-- Entry Prototype -->
                 <row>
                     <item>Name</item>
                     <item>Special</item>
@@ -23,6 +23,10 @@
                     <item>Range inc.</item>
                 </row>
             </head>
+            <body/>
+        </data>
+        <data type='table'>
+            <head/>
             <body>
                 <!-- Dagger -->
                 <row>
@@ -41,8 +45,9 @@
                     <item>1 lb.</item>
                     <item>10 ft.</item>
                 </row>
-                
-                <!-- Spiked Gauntlet -->
+            </body>
+        </data>
+                <!-- Spiked Gauntlet
                 <row>
                     <item>Spiked&#13;&#10;Gauntlet</item>
                     <item>Light</item>
@@ -99,6 +104,6 @@
                     <item>8 lb.</item>
                 </row>
             </body>
-        </data>
+        </data>-->
     </section>
 </content>
