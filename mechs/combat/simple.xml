@@ -7,7 +7,7 @@
         <data type='table'>
             <head>
                 <row>
-                    <item><h5>Name</h5></item>
+                    <item><p style='font-size: 80%'>Name</p></item>
                     <item>Special</item>
                     <item>Dmg Type</item>
                 </row>
@@ -25,7 +25,7 @@
             <body>
                 <!-- Dagger -->
                 <row>
-                    <item><h7>Dagger</h7></item>
+                    <item><p style='font-size: 80%'>Dagger</p></item>
                     <item>Finesse,&#13;&#10;Light</item>
                     <item>Slashing&#13;&#10;Piercing</item>
                     
