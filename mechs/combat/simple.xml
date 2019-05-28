@@ -20,7 +20,7 @@
                     <item>Range</item>
                 </row>
             </body>
-        </table>
+        </data>
     </section>
     <section title='Dagger'>
         <data type='table'>
@@ -39,7 +39,7 @@
                     <item>10 ft.</item>
                 </row>
             </body>
-        </table>
+        </data>
     </section>
     <section title='Spiked Gauntlet'>
         <data type='table'>
@@ -58,7 +58,7 @@
                     <item>-</item>
                 </row>
             </body>
-        </table>
+        </data>
     </section>
    <section title='Sickle'>
         <data type='table'>
@@ -77,7 +77,7 @@
                     <item>Range</item>
                 </row>
             </body>
-        </table>
+        </data>
     </section>
                 <!--<row>
                     <item>Sickle</item>
