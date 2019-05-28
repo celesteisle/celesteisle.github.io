@@ -3,56 +3,82 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <!-- multitables follow the same divider rules as multi-lists -->
 <content>
-    <section title='Simple One-Handed Weapons' width='11'>
+    <section title='Weapon'>
         <data type='table'>
-            <head>
-                <row>
-                    <item>Name</item>
-                    <item>Special</item>
-                    <item>Dmg Type</item>
-                </row>
+            <head/>
+            <body>
                 <row>
                     <item>Dmg(S)</item>
                     <item>Dmg(M)</item>
+                    <item>Type</item>
                     <item>Crit</item>
                 </row>
                 <row>
+                    <item>Special</item>
                     <item>Cost</item>
                     <item>Weight</item>
-                    <item>Range inc.</item>
+                    <item>Range</item>
                 </row>
-            </head>
+            </body>
+        </table>
+    </section>
+    <section title='Dagger'>
+        <data type='table'>
+            <head/>
             <body>
-                <!-- Dagger -->
-                <row>
-                    <item>Dagger</item>
-                    <item>Finesse,&#13;&#10;Light</item>
-                    <item>Slashing&#13;&#10;Piercing</item>
-                    
-                </row>
                 <row>
                     <item>1d3</item>
                     <item>1d4</item>
+                    <item>Slash&#13;&#10;Pierce</item>
                     <item>19+/x2</item>
                 </row>
                 <row>
+                    <item>Finesse,&#13;&#10;Light</item>
                     <item>2 gp</item>
                     <item>1 lb.</item>
                     <item>10 ft.</item>
                 </row>
-                
-                <!-- Spiked Gauntlet -->
+            </body>
+        </table>
+    </section>
+    <section title='Spiked Gauntlet'>
+        <data type='table'>
+            <head/>
+            <body>
                 <row>
-                    <item><h7>Spiked&#13;&#10;Gauntlet</h7></item>
-                    <item>Light</item>
                     <item>1d3</item>
                     <item>1d4</item>
+                    <item>Pierce</item>
                     <item>x2</item>
-                    <item>Piercing</item>
-                    <item>-</item>
+                </row>
+                <row>
+                    <item>Light</item>
                     <item>5 gp</item>
                     <item>1 lb.</item>
+                    <item>-</item>
                 </row>
+            </body>
+        </table>
+    </section>
+   <section title='Sickle'>
+        <data type='table'>
+            <head/>
+            <body>
+                <row>
+                    <item>Dmg(S)</item>
+                    <item>Dmg(M)</item>
+                    <item>Type</item>
+                    <item>Crit</item>
+                </row>
+                <row>
+                    <item>Special</item>
+                    <item>Cost</item>
+                    <item>Weight</item>
+                    <item>Range</item>
+                </row>
+            </body>
+        </table>
+    </section>
                 <row>
                     <item>Sickle</item>
                     <item>Light</item>
