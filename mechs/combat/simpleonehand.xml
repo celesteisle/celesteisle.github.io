@@ -3,25 +3,6 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <!-- multitables follow the same divider rules as multi-lists -->
 <content>
-    <section title='Weapon'>
-        <data type='table'>
-            <head/>
-            <body>
-                <row>
-                    <item>Dmg(S)</item>
-                    <item>Dmg(M)</item>
-                    <item>Type</item>
-                    <item>Crit</item>
-                </row>
-                <row>
-                    <item>Special</item>
-                    <item>Cost</item>
-                    <item>Weight</item>
-                    <item>Range</item>
-                </row>
-            </body>
-        </data>
-    </section>
     <section title='Dagger'>
         <data type='table'>
             <head/>

@@ -3,54 +3,78 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <!-- multitables follow the same divider rules as multi-lists -->
 <content>
-    <section title='Simple Two-Handed Weapons' width='11'>
+    <section title='Weapon'>
         <data type='table'>
-            <head>
-                <row>
-                    <item>Name</item>
-                    <item>Special</item>
-                    <item>Dmg(S)</item>
-                    <item>Dmg(M)</item>
-                    <item>Crit</item>
-                    <item>Dmg Type</item>
-                    <item>Range inc.</item>
-                    <item>Cost</item>
-                    <item>Weight</item>
-                </row>
-            </head>
+            <head/>
             <body>
                 <row>
-                    <item>Longspear</item>
-                    <item>Reach</item>
-                    <item>1d6</item>
-                    <item>1d8</item>
-                    <item>x3</item>
-                    <item>Piercing</item>
-                    <item>-</item>
-                    <item>5 gp</item>
-                    <item>9 lb.</item>
+                    <item>Dmg(S)</item>
+                    <item>Dmg(M)</item>
+                    <item>Type</item>
+                    <item>Crit</item>
                 </row>
                 <row>
-                    <item>QuarterStaff</item>
+                    <item>Special</item>
+                    <item>Cost</item>
+                    <item>Weight</item>
+                    <item>Range</item>
+                </row>
+            </body>
+        </data>
+    </section>
+    <section title='Longspear'>
+        <data type='table'>
+            <head/>
+            <body>
+                <row>
+                    <item>1d6</item>
+                    <item>1d8</item>
+                    <item>Pierce</item>
+                    <item>x3</item>
+                </row>
+                <row>
+                    <item>Reach</item>
+                    <item>5 gp</item>
+                    <item>9 lb.</item>
                     <item>-</item>
+                </row>
+            </body>
+        </data>
+    </section>
+    <section title='QuarterStaff'>
+        <data type='table'>
+            <head/>
+            <body>
+                <row>
                     <item>1d4</item>
                     <item>1d6</item>
+                    <item>Bludge</item>
                     <item>x2</item>
-                    <item>Bludgeoning</item>
+                </row>
+                <row>
                     <item>-</item>
                     <item>1 gp</item>
                     <item>4 lb.</item>
-                </row>
-                <row>
-                    <item>Spear</item>
                     <item>-</item>
+                </row>
+            </body>
+        </data>
+    </section>
+    <section title='Spear'>
+        <data type='table'>
+            <head/>
+            <body>
+                <row>
                     <item>1d6</item>
                     <item>1d8</item>
+                    <item>Pierce</item>
                     <item>x3</item>
-                    <item>Piercing</item>
-                    <item>20 ft.</item>
+                </row>
+                <row>
+                    <item>-</item>
                     <item>2 gp</item>
                     <item>3 lb.</item>
+                    <item>20 ft.</item>
                 </row>
             </body>
         </data>

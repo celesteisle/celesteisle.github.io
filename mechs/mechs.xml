@@ -6,7 +6,12 @@
         <data type='ulist'>
             <item>Weapons
                 <data type='ulist'>
-                    <item><a class='file' href='../mechs/combat/simple.xml'>Simple</a></item>
+                    <item>Simple
+                        <data type='ulist'>
+                            <item><a class='file' href='../mechs/combat/simpleonehand.xml'>One-Handed</a></item>
+                            <item><a class='file' href='../mechs/combat/simpletwohand.xml'>Two-Handed</a></item>
+                        </data>
+                    </item>
                 </data>
             </item>                
         </data>
