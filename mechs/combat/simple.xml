@@ -35,8 +35,8 @@
                 <row>
                     <item>Finesse,&#13;&#10;Light</item>
                     <item>2 gp</item>
-                    <item>1 lb.</item>
-                    <item>10 ft.</item>
+                    <item>1 lb</item>
+                    <item>10 ft</item>
                 </row>
             </body>
         </data>
@@ -60,70 +60,80 @@
             </body>
         </data>
     </section>
-   <section title='Sickle'>
+    <section title='Sickle'>
         <data type='table'>
             <head/>
             <body>
                 <row>
-                    <item>Dmg(S)</item>
-                    <item>Dmg(M)</item>
-                    <item>Type</item>
-                    <item>Crit</item>
+                    <item>1d4</item>
+                    <item>1d6</item>
+                    <item>Slashing</item>
+                    <item>x2</item>
                 </row>
                 <row>
-                    <item>Special</item>
-                    <item>Cost</item>
-                    <item>Weight</item>
-                    <item>Range</item>
+                    <item>Light</item>
+                    <item>6 gp</item>
+                    <item>2 lb</item>
+                    <item>-</item>
                 </row>
             </body>
         </data>
     </section>
-                <!--<row>
-                    <item>Sickle</item>
-                    <item>Light</item>
+    <section title='Club'>
+        <data type='table'>
+            <head/>
+            <body>
+                <row>
                     <item>1d4</item>
                     <item>1d6</item>
+                    <item>Bludge</item>
                     <item>x2</item>
-                    <item>Slashing</item>
-                    <item>-</item>
-                    <item>6 gp</item>
-                    <item>2 lb.</item>
                 </row>
                 <row>
-                    <item>Club</item>
                     <item>-</item>
-                    <item>1d4</item>
-                    <item>1d6</item>
-                    <item>x2</item>
-                    <item>Bludgeoning</item>
-                    <item>10 ft.</item>
-                    <item>1 gp</item>
+                    <<item>1 gp</item>
                     <item>3 lb.</item>
-                </row>
-                <row>
-                    <item>Mace</item>
-                    <item>-</item>
-                    <item>1d6</item>
-                    <item>1d8</item>
-                    <item>x2</item>
-                    <item>Bludgeoning</item>
-                    <item>-</item>
-                    <item>12 gp</item>
-                    <item>8 lb.</item>
-                </row>
-                <row>
-                    <item>Shortspear</item>
-                    <item>-</item>
-                    <item>1d4</item>
-                    <item>1d6</item>
-                    <item>x2</item>
-                    <item>Piercing</item>
-                    <item>20 ft.</item>
-                    <item>1 gp</item>
-                    <item>8 lb.</item>
+                    <item>10 ft.</item>
                 </row>
             </body>
         </data>
-    </section>-->
+    </section>
+    <section title='Mace'>
+        <data type='table'>
+            <head/>
+            <body>
+                <row>
+                    <item>1d6</item>
+                    <item>1d8</item>
+                    <item>Bludge</item>
+                    <item>x2</item>
+                </row>
+                <row>
+                    <item>-</item>
+                    <item>12 gp</item>
+                    <item>8 lb.</item>
+                    <item>-</item>
+                </row>
+            </body>
+        </data>
+    </section>
+        <section title='Shortspear'>
+        <data type='table'>
+            <head/>
+            <body>
+                <row>
+                    <item>1d4</item>
+                    <item>1d6</item>
+                    <item>Pierce</item>
+                    <item>x2</item>
+                </row>
+                <row>
+                    <item>-</item>
+                    <item>1 gp</item>
+                    <item>8 lb.</item>
+                    <item>20 ft.</item>
+                </row>
+            </body>
+        </data>
+    </section>
 </content>
