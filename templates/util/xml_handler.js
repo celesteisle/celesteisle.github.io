@@ -132,7 +132,7 @@ function tableDes(table){
     }
     var body = getChildrenByTagName(table, "body");
     html += "<tbody>" + tableSecDes(body[0]) + "</tbody>"
-    return html;
+    return html + "</table>";
 }
 
 function generalDes(general){
