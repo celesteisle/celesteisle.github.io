@@ -8,8 +8,8 @@
                 <data type='ulist'>
                     <item>Simple
                         <data type='ulist'>
-                            <item><a class='file' href='../mechs/combat/simpleonehand.xml'>One-Hand</a></item>
-                            <item><a class='file' href='../mechs/combat/simpletwohand.xml'>Two-Hand</a></item>
+                            <item><a class='file' href='../mechs/combat/simpleonehand.xml'>One-Handed</a></item>
+                            <item><a class='file' href='../mechs/combat/simpletwohand.xml'>Two-Handed</a></item>
                         </data>
                     </item>
                 </data>

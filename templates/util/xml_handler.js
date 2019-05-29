@@ -54,7 +54,7 @@ function contentDes(content){
             section.setAttribute("width", divWidths[width]);   
             if(!section.hasAttribute("color")){
                 var color = colors[colorCounter]
-                colorCounter ++;
+                colorCounter = (colorCounter + 1) % colors.length;
                 section.setAttribute("color", color); 
             }
             html += sectionDes(section);
