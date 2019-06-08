@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Single List Example
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<content>
+    <character>
+        <section title='Title' color='pink'>
+            <data type='olist'>
+                <item>List item 1</item>
+                <item>List item 2
+                    <data type='ulist'>
+                        <item>Sublist item 1</item>
+                        <item>Sublist item 2</item>
+                        <item>Sublist item 3</item>
+                    </data>
+                </item>
+                <item>List item 3</item>
+            </data>
+        </section>
+    </character>
+</content>

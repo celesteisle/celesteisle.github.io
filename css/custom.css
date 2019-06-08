@@ -33,25 +33,14 @@ a:hover {
     color: #222034;
 }
 
-/* Bottom margin is needed on non-nested sections so that they are seperated in mobile layout*/
-.row .section.div {
+.section.div {
     padding: 10px 10px 10px 10px;
     border-style: solid;
     border-width: 3px;
-    /* FIX SECTION DIV HEIGHTS */
     height: inherit;
     border-radius: 8px;
     margin-bottom: 4%;
-}
-
-/* Bottom margin is unecesary in nested sections*/
-.section.div .section.div{
-        padding: 10px 10px 10px 10px;
-    border-style: solid;
-    border-width: 3px;
-    height: inherit;
-    border-radius: 8px;
-    margin-bottom: 0;
+    line-height: 1;
 }
 
 .red {
@@ -97,6 +86,13 @@ a:hover {
 .grey {
     background-color: #9badb7; 
     border-color: #9badb7;
+}
+
+/* Character styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.stat {
+    margin-bottom: 0px;
+    magin-top: 0px;
 }
 
 /* Misc Styles
