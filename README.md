@@ -8,7 +8,7 @@ Character journals/notes;
 Party information;
 Other resources as needed on a case-by-case basis.
 
-The site is primarily used for quick reference during games.
+This site was a personal torture project because I decided to store data as XML and parse that manually using JS. It is incredibly outdated and incredibly shaky.
 
 
 Created using Skeleton by Dave Gamache under MIT license 
